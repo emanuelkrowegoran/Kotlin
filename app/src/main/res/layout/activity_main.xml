@@ -9,18 +9,18 @@
 
     <TextView
             android:id="@+id/nama"
-            android:layout_width="wrap_content"
+            android:layout_width="158dp"
             android:layout_height="wrap_content"
             android:text=""
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" android:layout_alignParentEnd="true"
-            android:layout_alignParentTop="true" android:layout_marginEnd="127dp" android:layout_marginTop="226dp"/>
+            android:layout_alignParentTop="true" android:layout_marginEnd="112dp" android:layout_marginTop="226dp"/>
 
     <TextView
             android:id="@+id/nim"
-            android:layout_width="wrap_content"
+            android:layout_width="143dp"
             android:layout_height="wrap_content"
             android:text=""
             app:layout_constraintBottom_toBottomOf="parent"
@@ -28,11 +28,12 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.506"
             app:layout_constraintVertical_bias="0.54" android:layout_centerHorizontal="true"
-            android:layout_alignParentBottom="true" android:layout_marginBottom="245dp"/>
+            android:layout_alignParentBottom="true" android:layout_marginBottom="243dp"/>
 
     <ImageView
             android:layout_width="match_parent"
             android:layout_height="190dp"
-            android:src="@drawable/ic_launcher_background" android:layout_alignParentStart="true"
+            android:src="@drawable/ee"
+            android:layout_alignParentStart="true"
             android:layout_alignParentTop="true" android:layout_marginTop="19dp"/>
 </RelativeLayout>
